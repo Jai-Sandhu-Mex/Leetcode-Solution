@@ -13,3 +13,14 @@ class Solution {
         return false;
     }
 }
+
+
+
+//Better Solution 
+class Solution {
+    public boolean rotateString(String s, String goal) {
+        if(s.length() != goal.length()) return false;
+        String Combined = s+s;
+        return Combined.contains(goal);
+    }
+}
