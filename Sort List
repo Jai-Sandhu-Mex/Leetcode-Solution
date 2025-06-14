@@ -1,0 +1,81 @@
+class Solution {
+    
+    private void mergeSort(ArrayList<Integer> arr, int low, int high) {
+        if (low >= high) {
+            return;
+        }
+        
+        int mid = low + (high - low) / 2;
+        
+        mergeSort(arr, low, mid);
+        mergeSort(arr, mid + 1, high);
+        
+        merge(arr, low, mid, high);
+    }
+    
+    private void merge(ArrayList<Integer> arr, int low, int mid, int high) {
+        ArrayList<Integer> left = new ArrayList<>();
+        ArrayList<Integer> right = new ArrayList<>();
+        
+        // Copy left half
+        for (int i = low; i <= mid; i++) {
+            left.add(arr.get(i));
+        }
+        
+        // Copy right half
+        for (int i = mid + 1; i <= high; i++) {
+            right.add(arr.get(i));
+        }
+        
+        // Merge back
+        int i = 0, j = 0, k = low;
+        
+        while (i < left.size() && j < right.size()) {
+            if (left.get(i) <= right.get(j)) {
+                arr.set(k, left.get(i));
+                i++;
+            } else {
+                arr.set(k, right.get(j));
+                j++;
+            }
+            k++;
+        }
+        
+        while (i < left.size()) {
+            arr.set(k, left.get(i));
+            i++;
+            k++;
+        }
+        
+        while (j < right.size()) {
+            arr.set(k, right.get(j));
+            j++;
+            k++;
+        }
+    }
+    
+    public ListNode sortList(ListNode head) {
+        if (head == null) return null;
+        
+        ArrayList<Integer> arr = new ArrayList<>();
+        ListNode temp = head;
+        
+        // Extract values
+        while (temp != null) {
+            arr.add(temp.val);
+            temp = temp.next;
+        }
+        
+        // Sort using merge sort
+        mergeSort(arr, 0, arr.size() - 1);
+        
+        // Update original list
+        temp = head;
+        for (int i = 0; i < arr.size(); i++) {
+            temp.val = arr.get(i);
+            temp = temp.next;
+        }
+        
+        return head;
+    }
+}
