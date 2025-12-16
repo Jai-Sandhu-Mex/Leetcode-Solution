@@ -1,202 +1,120 @@
-🚀 LeetCode Solutions - Placement Preparation
+# 💻 LeetCode Solutions
+
 <div align="center">
-Show Image
-Show Image
-Show Image
-A comprehensive collection of LeetCode solutions crafted for placement preparation
-Show Image
-Show Image
+
+![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)
+![Problems Solved](https://img.shields.io/badge/Solved-150+-success?style=for-the-badge)
+![Languages](https://img.shields.io/badge/Languages-Python%20|%20Java%20|%20C++-blue?style=for-the-badge)
+
+**My journey of solving coding problems and improving problem-solving skills**
+
 </div>
 
-📋 Table of Contents
+---
 
-About
-Repository Structure
-Problem Categories
-Languages Used
-How to Use
-Contributing
-Progress Tracker
-Resources
-Connect With Me
+## 📊 Progress Stats
 
+| Difficulty | Problems Solved | 
+|------------|----------------|
+| 🟢 Easy | 80 |
+| 🟡 Medium | 60 |
+| 🔴 Hard | 10 |
+| **Total** | **150** |
 
-🎯 About
-Welcome to my LeetCode solutions repository! This collection represents my journey through algorithmic problem-solving, specifically tailored for placement preparation. Each solution is carefully crafted with:
+---
 
-✅ Clean, readable code
-✅ Detailed comments explaining the approach
-✅ Time and space complexity analysis
-✅ Multiple solution approaches where applicable
-✅ Test cases and edge case handling
+## 📁 Repository Structure
 
-
-💡 Goal: To provide comprehensive solutions that not only solve the problem but also enhance understanding of fundamental data structures and algorithms concepts.
-
-
-📁 Repository Structure
-Leetcode-Solution/
-├── Easy/
-│   ├── Array/
-│   ├── String/
-│   ├── LinkedList/
+```
+📦 LeetCode-Solutions
+├── 📂 Easy
+│   ├── Two_Sum.py
+│   ├── Valid_Parentheses.java
 │   └── ...
-├── Medium/
-│   ├── DynamicProgramming/
-│   ├── Trees/
-│   ├── Graphs/
+├── 📂 Medium
+│   ├── Longest_Substring.py
+│   ├── Container_With_Most_Water.cpp
 │   └── ...
-├── Hard/
-│   ├── BackTracking/
-│   ├── AdvancedDataStructures/
-│   └── ...
-├── Company-Wise/
-│   ├── Google/
-│   ├── Amazon/
-│   ├── Microsoft/
-│   └── ...
-└── Study-Notes/
-    ├── Patterns/
-    ├── Templates/
-    └── Tips/
+└── 📂 Hard
+    ├── Median_of_Two_Sorted_Arrays.py
+    └── ...
+```
 
-🏷️ Problem Categories
-Data Structures
+---
 
-🔗 Linked Lists - Traversal, manipulation, and optimization
-🌳 Trees & Binary Search Trees - Traversals, construction, and queries
-📊 Arrays & Strings - Two pointers, sliding window, sorting
-📚 Stacks & Queues - LIFO/FIFO operations and applications
-🗂️ Hash Tables - Fast lookups and frequency counting
-⛰️ Heaps - Priority queues and top-K problems
+## 🔥 Topics Covered
 
-Algorithms
+- **Arrays & Strings**
+- **Linked Lists**
+- **Trees & Graphs**
+- **Dynamic Programming**
+- **Binary Search**
+- **Sorting & Searching**
+- **Backtracking**
+- **Recursion**
+- **Hash Tables**
+- **Stack & Queue**
 
-🎯 Dynamic Programming - Optimization and memoization
-🔄 Two Pointers - Efficient array/string processing
-🪟 Sliding Window - Subarray and substring problems
-🌐 Graph Algorithms - BFS, DFS, shortest paths
-🔍 Binary Search - Efficient searching in sorted data
-🔀 Backtracking - Exhaustive search with pruning
-🧮 Math & Bit Manipulation - Number theory and bitwise ops
+---
 
+## 🌟 Featured Solutions
 
-💻 Languages Used
+| Problem | Difficulty | Solution | Topics |
+|---------|-----------|----------|--------|
+| [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | [Python](./Easy/Two_Sum.py) | Array, Hash Table |
+| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 Medium | [Java](./Medium/Add_Two_Numbers.java) | Linked List |
+| [Longest Substring](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium | [Python](./Medium/Longest_Substring.py) | Sliding Window |
+| [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | [C++](./Hard/Median_Arrays.cpp) | Binary Search |
+
+---
+
+## 🛠️ Languages Used
+
 <div align="center">
-Show Image
-Show Image
-Show Image
-Show Image
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+
 </div>
 
-🔧 How to Use
-1. Clone the Repository
-bashgit clone https://github.com/Jai-Sandhu-Mex/Leetcode-Solution.git
-cd Leetcode-Solution
-2. Navigate to Specific Problems
-bash# Browse by difficulty
-cd Easy/Array/
+---
 
-# Browse by company
-cd Company-Wise/Google/
+## 📈 Learning Goals
 
-# Browse by topic
-cd Medium/DynamicProgramming/
-3. Run Solutions
-bash# For Python solutions
-python3 solution.py
+- ✅ Master data structures and algorithms
+- ✅ Improve problem-solving speed
+- ✅ Prepare for technical interviews
+- ✅ Build consistent coding practice
+- 🔄 Solve 300+ problems by graduation
 
-# For Java solutions
-javac Solution.java && java Solution
+---
 
-# For C++ solutions
-g++ -o solution solution.cpp && ./solution
+## 💡 How to Use This Repo
 
-📈 Progress Tracker
-<div align="center">
-DifficultySolvedTotalPercentage🟢 Easy15020075%🟡 Medium10015067%🔴 Hard255050%Total27540069%
-</div>
-🏆 Recent Achievements
+1. **Browse by difficulty** - Check Easy/Medium/Hard folders
+2. **Search by topic** - Use the topics list to find specific problem types
+3. **Learn from solutions** - Each file contains code with comments explaining the approach
+4. **Practice yourself** - Try solving before looking at solutions
 
-✅ Completed all Easy Array problems
-✅ Mastered Dynamic Programming fundamentals
-✅ Solved 50+ Tree-based problems
-🎯 Current focus: Advanced Graph algorithms
+---
 
+## 👤 About Me
 
-📚 Study Resources
-📖 Recommended Books
+**Jai Sandhu**  
+4th Year Student | VIT Bhopal  
+Aspiring Software Developer
 
-"Cracking the Coding Interview" by Gayle Laakmann McDowell
-"Elements of Programming Interviews" by Adnan Aziz
-"Algorithm Design Manual" by Steven Skiena
+📧 **Email:** your.email@example.com  
+💼 **LinkedIn:** [Your LinkedIn](YOUR_LINKEDIN_URL)  
+🔗 **LeetCode Profile:** [Your LeetCode](YOUR_LEETCODE_PROFILE)
 
-🎥 Helpful YouTube Channels
-
-NeetCode
-Tech With Tim
-Abdul Bari
-
-🌐 Online Platforms
-
-LeetCode
-HackerRank
-GeeksforGeeks
-
-
-🤝 Contributing
-Contributions are welcome! Here's how you can help:
-
-Fork the repository
-Create a new branch: git checkout -b feature/new-solution
-Add your solution with proper documentation
-Commit your changes: git commit -m 'Add solution for Problem XYZ'
-Push to the branch: git push origin feature/new-solution
-Submit a pull request
-
-Contribution Guidelines
-
-Include time and space complexity analysis
-Add meaningful comments to explain your approach
-Follow consistent naming conventions
-Include test cases where applicable
-
-
-📊 Solution Template
-python"""
-Problem: [Problem Title]
-Difficulty: [Easy/Medium/Hard]
-Topic: [Array/String/Tree/etc.]
-
-Problem Statement:
-[Brief description of the problem]
-
-Approach:
-[Explanation of your approach]
-
-Time Complexity: O(n)
-Space Complexity: O(1)
-"""
-
-class Solution:
-    def solutionMethod(self, params):
-        # Your solution here
-        pass
-
-# Test cases
-if __name__ == "__main__":
-    sol = Solution()
-    # Add test cases
-
-🌟 Connect With Me
-<div align="center">
-Show Image
-Show Image
-Show Image
-</div>
+---
 
 <div align="center">
-💡 "The expert in anything was once a beginner who refused to give up."
-Happy Coding! 🚀
-⭐ If this repository helped you, please consider giving it a star! ⭐
+
+⭐ **Star this repo if you find it helpful!**
+
+*Keep grinding, keep improving! 💪*
+
 </div>
