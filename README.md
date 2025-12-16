@@ -3,68 +3,58 @@
 <div align="center">
 
 ![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)
-![Problems Solved](https://img.shields.io/badge/Solved-150+-success?style=for-the-badge)
-![Languages](https://img.shields.io/badge/Languages-Python%20|%20Java%20|%20C++-blue?style=for-the-badge)
+![Problems Solved](https://img.shields.io/badge/Solved-12+-success?style=for-the-badge)
+![Languages](https://img.shields.io/badge/Language-Python-blue?style=for-the-badge)
 
-**My journey of solving coding problems and improving problem-solving skills**
+**My coding journey - One problem at a time**
 
 </div>
 
 ---
 
-## 📊 Progress Stats
+## 📊 Progress
 
-| Difficulty | Problems Solved | 
-|------------|----------------|
-| 🟢 Easy | 80 |
-| 🟡 Medium | 60 |
-| 🔴 Hard | 10 |
-| **Total** | **150** |
+| Difficulty | Solved | 
+|------------|--------|
+| 🟢 Easy | 8 |
+| 🟡 Medium | 3 |
+| 🔴 Hard | 1 |
+| **Total** | **12** |
 
 ---
 
-## 📁 Repository Structure
+## 📝 Problems Solved
 
-```
-📦 LeetCode-Solutions
-├── 📂 Easy
-│   ├── Two_Sum.py
-│   ├── Valid_Parentheses.java
-│   └── ...
-├── 📂 Medium
-│   ├── Longest_Substring.py
-│   ├── Container_With_Most_Water.cpp
-│   └── ...
-└── 📂 Hard
-    ├── Median_of_Two_Sorted_Arrays.py
-    └── ...
-```
+### Easy
+- [Question 1](./Question%201) - Basic problem solving
+- [Question 14](./Question%2014) - String manipulation
+- [Question 205](./Question%20205) - Isomorphic Strings
+- [Question 796](./Question%20796) - Rotate String
+- [Question 1068](./Question%201068) - Product Sales Analysis
+- [Single Number](./Single%20Number) - Array & Hash
+- [Sort List](./Sort%20List) - Linked List sorting
+- [Power of Two](./Power%20of%20Two) - Bit manipulation
+
+### Medium
+- [Divide Two Integers](./Divide%20Two%20Integers) - Math & Binary Search
+- [Integer to Roman](./Integer%20to%20Roman) - String conversion
+- [Subsets](./Subsets) - Backtracking
+
+### Hard
+- [Second Highest Salary](./Second-Highest-Salary-Leetcode) - SQL Query
 
 ---
 
 ## 🔥 Topics Covered
 
-- **Arrays & Strings**
-- **Linked Lists**
-- **Trees & Graphs**
-- **Dynamic Programming**
-- **Binary Search**
-- **Sorting & Searching**
-- **Backtracking**
-- **Recursion**
-- **Hash Tables**
-- **Stack & Queue**
-
----
-
-## 🌟 Featured Solutions
-
-| Problem | Difficulty | Solution | Topics |
-|---------|-----------|----------|--------|
-| [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | [Python](./Easy/Two_Sum.py) | Array, Hash Table |
-| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 Medium | [Java](./Medium/Add_Two_Numbers.java) | Linked List |
-| [Longest Substring](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium | [Python](./Medium/Longest_Substring.py) | Sliding Window |
-| [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | [C++](./Hard/Median_Arrays.cpp) | Binary Search |
+- Arrays & Hash Tables
+- Strings
+- Linked Lists
+- Backtracking
+- Bit Manipulation
+- Math
+- SQL
+- Binary Search
 
 ---
 
@@ -73,29 +63,29 @@
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 
 </div>
 
 ---
 
-## 📈 Learning Goals
+## 📈 Goals
 
-- ✅ Master data structures and algorithms
-- ✅ Improve problem-solving speed
-- ✅ Prepare for technical interviews
 - ✅ Build consistent coding practice
-- 🔄 Solve 300+ problems by graduation
+- ✅ Master DSA fundamentals
+- 🔄 Solve 50+ problems by year end
+- 🔄 Prepare for technical interviews
+- 🎯 Improve problem-solving speed
 
 ---
 
-## 💡 How to Use This Repo
+## 💡 Repository Structure
 
-1. **Browse by difficulty** - Check Easy/Medium/Hard folders
-2. **Search by topic** - Use the topics list to find specific problem types
-3. **Learn from solutions** - Each file contains code with comments explaining the approach
-4. **Practice yourself** - Try solving before looking at solutions
+Each problem folder contains:
+- Solution code with comments
+- Problem description
+- Approach explanation
+- Time & Space complexity analysis
 
 ---
 
@@ -107,7 +97,7 @@ Aspiring Software Developer
 
 📧 **Email:** your.email@example.com  
 💼 **LinkedIn:** [Your LinkedIn](YOUR_LINKEDIN_URL)  
-🔗 **LeetCode Profile:** [Your LeetCode](YOUR_LEETCODE_PROFILE)
+🔗 **LeetCode:** [Your Profile](YOUR_LEETCODE_PROFILE)
 
 ---
 
@@ -115,6 +105,6 @@ Aspiring Software Developer
 
 ⭐ **Star this repo if you find it helpful!**
 
-*Keep grinding, keep improving! 💪*
+*Consistency is key! 💪*
 
 </div>
